@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Coding Quiz</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+  </head>
+  <body>
+    <div>
+      <h1 class="text-center">
+        Welcome <span id="display-name">_____________</span>
+      </h1>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <div class="form-group">
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Enter your name to save!"
+            id="name-input"
+          />
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div id="startContainer"class="col-12 text-center">
+        <h2 class="text-center">Coding Quiz Challenge</h2>
+        <p>
+          Try to answer the following code related questions with in the time
+          limit. Keep in mind incorrect answers will penalize your score time by
+          ten seconds
+        </p>
+        <div id="question"></div>
+        <button class="js-button" id="answerA"></button>
+        <button class="js-button" id="answerB"></button>
+        <button class="js-button" id="answerC"></button>
+        <button class="js-button" id="answerD"></button>
+          <div id="answer"></div>
+        <button id="start">Start</button>
+        
+      </div>
+      </div>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
